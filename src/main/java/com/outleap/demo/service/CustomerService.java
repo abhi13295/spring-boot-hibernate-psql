@@ -2,9 +2,9 @@ package com.outleap.demo.service;
 
 import com.outleap.demo.entity.Customer;
 import com.outleap.demo.repository.CustomerRepository;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class CustomerService {
 
     private final CustomerRepository customerRepository;
